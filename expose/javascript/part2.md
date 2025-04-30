@@ -1,10 +1,3 @@
-Always show details
-
-Copy
-from pathlib import Path
-
-# Load the full markdown content from the current document
-full_content = """
 ### Part 2: Function Scope and Output
 
 **1. What happens at line 12 and why (with `var i`)?**  
