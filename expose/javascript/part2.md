@@ -33,7 +33,7 @@ Line 12 prints `3` because `length` is declared with `const` at the top of the f
 **11. What will this function return? Give a brief explanation why.**  
 It returns `[50, 100, 150]`. The function uses `const` for the array and length, and calculates a 50% discount on each price, pushing the result to the `discounted` array. `discounted` is returned correctly with no scoping issues.
 
-### Object Property Notation (from Question 12)
+### 12.
 
 **A. Accessing the value of the name property in the student object**  
 `student.name`
