@@ -50,8 +50,6 @@ It returns `[50, 100, 150]`. The function uses `const` for the array and length,
 **E. Access index zero in the array of the courseLoad property of the student object**  
 `student.courseLoad[0]`
 
-### Basic Operators & Type Conversion (Questions 13–15)
-
 **13. Arithmetic**  
 A. `'3' + 2` → `'32'` — String concatenation occurs because one operand is a string.  
 B. `'3' - 2` → `1` — String is converted to number for subtraction.  
