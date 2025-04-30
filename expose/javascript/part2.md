@@ -80,4 +80,14 @@ If the function `modifyArray([1, 2, 3], doSomething)` is called, the result will
 - The results of these function calls (`1 * 2`, `2 * 2`, `3 * 2`) are pushed into a new array.  
 - The final array returned is `[2, 4, 6]`.
 
+**19.**
+Output: 1 4 3 2
+**Explanation:**
+- `console.log(1)` runs immediately.
+- `setTimeout(..., 1000)` schedules `console.log(2)` to run after 1 second.
+- `setTimeout(..., 0)` schedules `console.log(3)` to run after the current call stack clears (as soon as possible, but still asynchronous).
+- `console.log(4)` runs immediately after 1.
+- Then `console.log(3)` runs (from the 0ms timeout).
+- Finally, after 1 second, `console.log(2)` runs.
+
 
