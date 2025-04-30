@@ -72,3 +72,12 @@ F. `true === Boolean(2)` → `true` — Both are strictly true boolean values.
 `==` checks for equality with type coercion (e.g. `'2' == 2` is true), while `===` checks for both value **and** type equality (e.g. `'2' === 2` is false).  
 """
 
+**17.**
+If the function `modifyArray([1, 2, 3], doSomething)` is called, the result will be `[2, 4, 6]`.
+**Explanation:**  
+- `modifyArray` loops through each element in the array `[1, 2, 3]`.  
+- For each element, it calls the `doSomething` function, which multiplies the number by 2.  
+- The results of these function calls (`1 * 2`, `2 * 2`, `3 * 2`) are pushed into a new array.  
+- The final array returned is `[2, 4, 6]`.
+
+
